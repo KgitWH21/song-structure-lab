@@ -1,0 +1,13 @@
+{
+  "name": "song-structure-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/prepare.mjs",
+    "start": "node scripts/prepare.mjs && node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
